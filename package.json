@@ -1,0 +1,69 @@
+{
+  "name": "finance-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/g2": "^4.1.27",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.6.5",
+    "dompurify": "^3.2.3",
+    "echarts": "^5.1.2",
+    "element-ui": "^2.15.1",
+    "face-api.js": "^0.22.2",
+    "gsap": "^3.12.5",
+    "highcharts": "^8.2.2",
+    "highcharts-vue": "^1.3.5",
+    "marked": "4.0.18",
+    "openai": "^4.56.0",
+    "quill": "^1.3.7",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3",
+    "tslib": "^2.6.3",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.4",
+    "vue-cookies": "^1.7.4",
+    "vue-json-views": "^1.3.0",
+    "vue-router": "^3.5.1",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.2.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321"
+}

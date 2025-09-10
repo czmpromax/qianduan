@@ -1,0 +1,121 @@
+/* 全局基础设置 */
+html,
+body {
+    margin: 0;
+    height: 100%;
+    min-width: 800px;
+    background-color: #f0f4f8;
+    /* 浅蓝背景 */
+    color: #333;
+    /* 全局字体颜色 */
+}
+
+/* 容器 */
+.home {
+    width: 100%;
+    background-color: #f0f4f8;
+    /* 浅蓝背景 */
+}
+
+/* 头部数据模块 */
+.home-head-data {
+    display: inline-block;
+    width: calc(41% - 10px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    /* 白色背景 */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* 轻微阴影 */
+    vertical-align: middle;
+    color: #333;
+    text-align: center;
+}
+
+/* 头部大数据内容 */
+.home-head-data ul li {
+    display: inline-block;
+    height: 110px;
+    padding: 15px;
+    font-size: 14px;
+    color: #007bff;
+    /* 蓝色数字 */
+    text-align: center;
+}
+
+.home-head-data-content {
+    font-size: 36px;
+    color: #007bff;
+    /* 强调蓝色 */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* 图表区域 */
+.home-head-chart {
+    width: calc(59% - 10px);
+    height: 310px;
+    background-color: #e8f0fc;
+    /* 浅蓝色区域 */
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+/* 中间表格样式 */
+.home-center-table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* 表格样式优化 */
+.home-center .el-table .table-style {
+    background-color: #ffffff;
+    /* 表格背景 */
+    color: #333;
+    /* 表格文字 */
+    text-align: center;
+    border-color: #d1e3f8;
+    /* 蓝色边框 */
+}
+
+/* 底部模块 */
+.home-foot-box {
+    display: inline-block;
+    width: calc(50% - 10px);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.home-foot-box-nav .left .line {
+    background-color: #007bff;
+    /* 蓝色小线条 */
+}
+
+.home-foot-box-content .item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 15px;
+    color: #555;
+}
+
+.home-foot-box-content .txn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* 链接样式 */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
