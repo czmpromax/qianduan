@@ -9,7 +9,7 @@ import App from './App.vue'
 import VueCookies from 'vue-cookies'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//axios.defaults.baseURL='/api'
+axios.defaults.baseURL='/api'
 
 
 Vue.use(ElementUI);

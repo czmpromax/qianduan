@@ -52,7 +52,7 @@ export default {
       loginForm: {
         email: '',
         password: '',
-        valid: ''
+        validCode: ''
       },
       validCode: '',
       rules: {
