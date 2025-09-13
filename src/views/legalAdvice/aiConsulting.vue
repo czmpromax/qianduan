@@ -99,7 +99,7 @@ export default {
     // 初始化 WebSocket 连接
     connectWebSocket() {
       // 创建新的 WebSocket 对象   WebSocket连接地址：wss://192.168.0.2:8041/ai-chat-websocket
-      this.websocket = new WebSocket("wss://192.168.0.2:8041/ai-chat-websocket");
+      this.websocket = new WebSocket("ws://169.254.43.131:8042/ai-chat-websocket");
 
       // WebSocket 连接成功
       this.websocket.onopen= ()=>{

@@ -5,7 +5,7 @@ module.exports = {
     https: false,
     proxy: {
       '/api': {
-        target: 'http://169.254.43.131:8041', // 目标后端地址
+        target: 'http://169.254.43.131:8042', // 目标后端地址
         changeOrigin: true,
         secure: false, // 不需要 HTTPS 时设置为 false
         pathRewrite: {
